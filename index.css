@@ -1,0 +1,1183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    height: auto;
+   
+    
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 1px 5px 5px whitesmoke;
+    padding: 0px 7%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    
+    z-index: 1200;
+    gap: 6rem;
+    opacity: 1;
+    height: 80px;
+    
+
+}
+
+header .logo{
+    font-weight: bolder;
+    font-size: 30px;
+    color: #333;
+    z-index: 1200;
+}
+.logo span{
+    color: rgb(245, 245, 10);
+}
+header.navbar ul{
+    list-style: none;
+    z-index: 1200;
+    
+}
+header .navbar ul li{
+    position: relative;
+    float: left;
+    list-style: none;
+    z-index: 1200;
+}
+header .navbar ul li a{
+    font-size: 20px;
+    padding: 20px;
+    color: #333;
+    display: block;
+    z-index: 1200;
+
+}
+header .navbar ul li a:hover{
+    background: white;
+    color: black;
+    border-radius: 20px;
+    border: 2px solid yellow;
+    z-index: 1200;
+
+}
+header .navbar ul li ul{
+    position: absolute;
+    left: 0PX;
+    width:200px ;
+    background-color: #fff;
+    display: none;
+    z-index: 1200;
+}
+
+header .navbar ul li ul li{
+    width:100% ;
+    border-top: 1px solid rgba(0,0, 0, .1);
+    z-index: 1200;
+    
+}
+header .navbar ul li ul li ul{
+    left: 200px;
+    top: 0;
+    z-index: 1200;
+}
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul{
+    display: initial;
+} 
+
+#menu_bar{
+    display: none;
+    
+   
+}
+header  label{
+    font-size: 35px;
+    color:#333 ;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    right: 25px;
+    
+}
+
+/*End of header section*/
+
+
+
+/*Start of slider section*/
+.container{
+    width: 100%;
+    height: auto;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+   
+}
+.swiper{
+    width: 100%;
+    height: 100vh;
+}
+.swiper-slide img{
+
+    width: 100%;
+    height: 100%;
+    transition: ease-in-out 2s;
+
+
+}
+.swiper .swiper-button-prev,.swiper .swiper-button-next{
+    color:yellow ;
+    
+    
+}
+.swiper.swiper-pagination{
+    color: white;
+}
+
+/*End of slider section*/
+
+/*start of principal image section*/
+
+.eblem{
+    width: 100%;
+    margin-top: 4px;
+    text-align: center;
+    color: brown;
+    background-color:rgb(157, 243, 243);
+    font-size: 30px;
+    padding: 15pxpx;
+    margin-top: 40px;
+}
+
+.principal_section{
+    background-color: lavender;
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+    gap: 3.5rem;
+    padding-bottom: 70px;
+    transition: all 2s ease-in-out;
+   
+}
+.principal_section:hover{
+    transform: rotate(2.4deg);
+    transform: scaleX(1.05);
+}
+.principal_image{
+    width: 50%;
+ 
+    padding-right: 40px;
+    padding-top: 70px;
+}
+.principal_image img{
+    width: 100%;
+    height: 100%;
+}
+
+.principalsMessage{
+    width: 50%;
+    padding-top: 0px;
+}
+.principalsMessage p{
+    font-size: 20px;
+    line-height: 27px;
+    padding-top: 30px;
+    padding-left: 6px;
+}
+.title{
+    padding-top: 30px;
+    font-size: 30px;
+    color:mediumvioletred;
+
+    
+    
+}
+/*End of principal image section*/
+
+/*Start of welcome section*/
+.welcome{
+    background-color: rgb(221, 216, 216);    
+    gap: .5em;    
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.About_THS,.Principals_welcome_talk,.Academic_welcome_talk{
+    
+   
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.About_THS p,.Principals_welcome_talk p,.Academic_welcome_talk  p{
+    line-height: 25px;
+    padding: 5px 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.welcome h2{
+    padding: 10px 10px;
+}
+
+
+#flag{
+    color: rgb(255, 166, 0);
+    font-size: 30px;
+}
+
+#flag2{
+    color: mediumaquamarine;
+    font-size: 40px;
+}
+#flag3{
+    color: red;
+    font-size: 40px;
+}
+
+
+
+
+/*End of welcome section*/
+
+/* start of career section */
+.careerSection{
+    margin: 30px 30px;
+   
+    display: flex;
+    gap: 2rem;
+    justify-content: space-evenly;
+    background-color: rgb(173, 224, 226);
+    transition: all 2s ease-in-out;
+}
+
+   
+
+.careerSection:hover{
+    transform: rotate(2.4deg);
+    transform: scaleX(1.02);
+}
+.careerImage{
+    width: 60%;
+
+}
+.careerImage img{
+    width: 100%;
+    padding: 0px 30px;
+    height: 90%;
+    padding: 30px 50px;
+    padding-left: 100px;
+}
+.careerTalk{
+    width: 40%;
+    
+
+}
+.careerTalk h2{
+    font-size: 20px;
+    color: rgb(70, 65, 65);
+    padding: 20px 10px;
+    color: #3586ff;
+    font-style: italic;
+    padding-left: 33px;
+}
+.careerTalk h1{
+  
+    color: rgb(70, 65, 65);
+    padding-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    padding-left: 30px;
+
+ 
+}
+.read{
+    padding-top: 2px;
+    padding-left: 40px;
+}
+#readMore{
+    border: 5px solid wheat;
+    border-radius: 50%;
+    padding: 7px 7px ;
+    background-color: gray;
+}
+video{
+    margin-left: 17px;
+    width: 90%;
+    height: 100%;
+    margin-top: 1px;
+    padding-bottom: 10px;
+    
+}
+
+
+
+h1.quotes{
+    color: red;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+h4.watchvideo {
+    padding: 10px 10px;
+}
+
+
+
+
+
+/* End of career section */
+
+/* Start of science section */
+.science{
+    margin: 30px 30px;
+    background-color: rgb(236, 224, 209);
+    display: flex;
+    gap: 2rem;
+    justify-content: space-evenly;
+    transition: all 2s ease-in-out;
+}
+
+
+
+   
+
+.science:hover{
+    transform: rotate(2.4deg);
+    transform: scaleX(1.02);
+}
+
+.scienceImage{
+    width: 60%;
+
+}
+.scienceImage img{
+    width: 100%;
+    padding: 0px 30px;
+    height: 100%;
+    padding: 30px 50px;
+    padding-left: 20px;
+}
+.scienceTalk{
+    width: 40%;
+    
+
+}
+.scienceTalk h2{
+    font-size: 20px;
+    color: rgb(70, 65, 65);
+    padding: 20px 10px;
+    color: #3586ff;
+    font-style: italic;
+}
+.scienceTalk h1{
+  
+    color: rgb(70, 65, 65);
+    padding-top: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+ 
+}
+
+.read{
+    padding-top: 2px;
+    padding-left: 40px;
+}
+#readMore{
+    border: 5px solid wheat;
+    border-radius: 50%;
+    padding: 7px 7px ;
+    background-color: gray;
+}
+h1.atScienceFair {
+    font-size: 33px;
+    color: red;
+}
+
+
+
+
+/* End of science section */
+/* start of slider section */
+
+
+
+.cont{
+    display: flex;
+    gap: 3rem;
+    margin: 50px 50px;
+}
+.coutTalk{
+    padding-left: 100px;
+    text-align: center;
+   
+}
+.coutTalk h3{
+    padding-top: 30%;
+    font-size: 25px;
+
+
+}
+#slider{
+    overflow: hidden;
+
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 10s slider infinite;
+}
+
+#slider figure img{
+    float: left;
+    width: 20%;
+    height: 50vh;
+}
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+/*End of slider section*/
+
+/*start of admin section */
+.admin{
+    margin-left: 0px;
+    background-image: url(image/8.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+    margin-top: 10px;
+
+
+}
+.admin_card,.admin1_card{
+    width: auto;
+    background-color: transparent  ;
+    margin: 10px ;
+    box-shadow: 5px 5px 3px white;
+    transition: ease-in-out 1.5s;
+    
+   
+}
+
+
+.admin h2,.admin p{
+    max-width: 400px;
+    color: brown;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 10px 15px;
+    font-weight: bold;
+
+}
+.admin .title,.admin1.title{
+  
+    color:orangered;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+.admin_card:hover{
+    background-image: url(image/1\ \(8\).jpg);
+    background-position: top;
+    background-size: cover;
+    padding-top: 50px;
+    color: black;
+  
+}
+.admin1_card:hover{
+    background-image: url(image/mathiga1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+    color: black;
+    
+  
+
+}
+
+
+/*end of admin section */
+.study_corner{
+    display: flex;
+    gap: 2rem;
+    margin: 20px 20px;
+    overflow-x: auto;
+    padding: 10px 10px;
+    border: 2ps solid red;
+    margin-bottom: 150px;
+ 
+    
+   
+    
+  
+}
+.study_corner::-webkit-scrollbar{
+    width: 100px;
+    
+
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+.study_corner_card{
+    border: 4px solid gray;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 0 15px 0 10px;
+    
+    
+    text-align: center;
+    padding-top: 15px;
+    transition: all 1.5s ease-in-out;
+}
+.study_corner_card:hover{
+    background-color:magenta;
+    color: white;
+    transform: rotate(360deg);
+}
+.study_corner_title{
+    text-align: center;
+    padding-top: 20px;
+}
+.study_corner_title h5{
+    padding-top: 20px;
+    font-size: 18px;
+}
+#cap{
+    font-size: 40px;
+    color: orange;
+}
+
+/*start for footer section */
+footer{
+    position: relative;
+    width: 100%;
+    background-color:#3586ff;
+    padding:20px 50px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+
+}
+footer .social_icon,
+.footer_menu
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+   
+
+}
+footer .social_icon li,.footer_menu li{
+    list-style: none;
+
+}
+footer .social_icon li a{
+    font-size: 2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+
+}
+footer .social_icon li a:hover{
+    transform: translateY(-10px);
+}
+
+.footer_menu li a{
+    font-size: 1.2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.4;
+}
+.footer_menu li a:hover{
+    opacity: 1;
+}
+footer p{
+    color: #fff;
+    text-align: center;
+    margin-top:15px ;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    padding-bottom: 1px;
+    font-size: 15px;
+}
+footer .wave{
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background:url(image/wave.png);
+    background-size: 1000px 100px;
+
+}
+
+footer .wave#wave1{
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWave 4s linear infinite;
+
+}
+footer .wave#wave2{
+    z-index: 999;
+    opacity: 0.5;
+    bottom:10px;
+    animation: animateWave_02 4s linear infinite;
+}
+
+
+footer .wave#wave3{
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWave 3s linear infinite;
+
+}
+footer .wave#wave4{
+    z-index: 999;
+    opacity: 0.7;
+    bottom:20px;
+    animation: animateWave_02 3s linear infinite;
+}
+
+
+@keyframes animateWave{
+    0%{
+        background-position-x: 1000px;
+    }
+
+    100%{
+        background-position-x: 0px;
+    }
+}
+
+@keyframes animateWave_02{
+    0%{
+        background-position-x: 0px;
+    }
+
+    100%{
+        background-position-x: 1000px;
+    }
+}
+.haeLanders{
+    color: yellow;
+    font-size: 18px;
+    font-style: italic;
+}
+
+
+@media screen and (max-width:371px){
+    footer{
+        
+        position: relative;
+        display: block;
+        padding: 0;
+        margin: 0 ;
+    }
+    .footer_menu li a{
+        font-size: 1.2em;
+        color: #fff;
+        margin: 0 6px;
+        display: inline-block;
+        text-decoration: none;
+        opacity: 0.6;
+    }
+
+
+
+}
+@media screen and (max-width:337px){
+    footer{
+        font-size: 10px;
+        position: relative;
+        display: block;
+        padding: 0;
+        margin: 0 ;
+    }
+    .footer_menu li a{
+        font-size: 1.2em;
+        color: #fff;
+        margin: 0 2px;
+        display: inline-block;
+        text-decoration: none;
+        opacity: 0.6;
+    }
+    footer p{
+        font-size:10px ;
+    }
+    .not{
+        display: none;
+    }
+
+
+}
+
+
+
+/* End of media querry for footer*/
+
+/* Start media for diplaying block of principal section  mobile size*/
+@media (max-width:1024px){
+    .principal_section{
+        background-color: lavender;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+        gap: .2rem;
+        padding-bottom: 10px;
+        flex-wrap: wrap;
+       
+    }
+    .principal_image{
+        width: 100%;
+       
+        padding-right: 1px;
+        padding-top: 10px;
+    }
+    .principal_image img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .principalsMessage{
+        width: 100%;
+        margin-top: 4px;
+     
+    }
+    .principalsMessage p{
+        font-size: 20px;
+        line-height: 25px;
+        padding-top: 10px;
+    }
+    .title{
+        padding-top: 30px;
+        font-size: 25px;
+        color:mediumvioletred;
+    
+        
+        
+    }
+    .eblem{
+        width: 100%;
+        
+        text-align: center;
+        color: brown;
+        background-color:rgb(157, 243, 243);
+        font-size: 25px;
+       
+        margin-top: 40px;
+    }
+   
+}
+
+@media (max-width:450px){
+    #eblem{
+        font-size: 25px;
+    }
+}
+
+
+/* End media for diplaying block of principal section */
+  
+
+@media (max-width:961px){
+
+    header .navbar ul li ul li{
+        width:100% ;
+        border-top: 1px solid rgba(0,0, 0, .1);
+        
+        
+    }
+    header{
+        padding: 20px;
+    }
+    header label{
+        display: initial;
+    }
+    header .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        
+        right: 0px;
+        background: #fff;
+        border-top:1px solid rgba(0, 0, 0,.1) ;
+        display: none;
+        
+        gap: 1em;
+        height: 100vh;
+    
+        background-color: rgb(175, 175, 226);
+        width: 100%;
+        margin-top: 1px;
+        z-index: 1200;
+    
+       
+      
+    }
+
+  
+    header .navbar ul li {
+        margin-top: 0 ;
+        margin-bottom: 0px;
+        width: 100%;
+        border-bottom: 2px solid white;
+        padding: 0px 10px;
+     
+      
+        
+        
+
+       
+
+    }
+    header .navbar ul li ul{
+        position: relative;
+        
+       
+    }
+    header .navbar ul li ul li{
+        background-color: rgb(18, 192, 204);
+        padding: 0px 5px;
+
+    }
+    header .navbar ul li ul li ul{
+        width: 50%;
+        
+       
+    }
+    #menu_bar:checked ~ .navbar{
+        display: initial;
+       
+
+    }
+
+    .swiper .swiper-button-prev,.swiper .swiper-button-next{
+        color:yellow ;
+        display: none;
+        
+    }
+ 
+  
+}
+
+
+@media (max-width:301px){
+    header .logo{
+        font-size: 15px;
+    }
+    header  label{
+        font-size: 15px;
+    }
+
+    header .navbar ul li ul li{
+        width:100% ;
+        border-top: 1px solid rgba(0,0, 0, .1);
+        
+        
+    }
+
+}
+
+@media (max-width:484px){
+    .swiper{
+        margin-top: 10px;
+        height: 50vh;
+    }
+}
+
+@media   (min-width:609px) {
+    .welcome{
+        background-color: rgb(221, 216, 216);
+        display: flex;
+        gap: .5em;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .About_THS,.Principals_welcome_talk,.Academic_welcome_talk{
+        max-width:300px ;
+        border-right: 3px  solid white;
+        border-left: 3px  solid white;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .About_THS p,.Principals_welcome_talk p,.Academic_welcome_talk  p{
+        line-height: 25px;
+        padding: 5px 5px;
+    }
+
+    
+}
+@media   (max-width:856px){
+    .admin{
+        justify-content: start;
+        background-image: url(image/8.jpg);
+    }
+    .admin_card{
+        width: 100%;
+    }
+    .admin h2 {
+        max-width: 100%;
+        background-color:transparent;
+      
+    }
+}
+
+
+/* start of media for fixing career section for mobile screen */
+@media   (max-width:700px){
+    .careerSection{
+       
+        margin-left: 3px;
+        margin-right: 3px;
+        display: block;
+        gap: 2rem;
+        justify-content: space-evenly;
+        background-color: rgb(173, 224, 226);
+        transition: all 2s ease-in-out;
+    }
+    
+       
+    
+    .careerSection:hover{
+        transform: rotate(2.4deg);
+        transform: scaleX(1.02);
+    }
+    .careerImage{
+        width: 100%;
+      
+    
+    }
+    .careerImage img{
+        width: 100%;
+   
+        height: 90%;
+       
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .careerTalk{
+        width: 100%;
+        
+    
+    }
+    .careerTalk h2{
+        font-size: 17px;
+        color: rgb(70, 65, 65);
+        
+        padding-left: 4px;
+        color: #3586ff;
+        font-style: italic;
+      
+    }
+    .careerTalk h1{
+        padding-top: 13px;
+        color: rgb(70, 65, 65);
+        padding-left: 4px;
+      
+        font-family: 'Open Sans', sans-serif;
+        font-size: 24px;
+      
+    
+     
+    }
+    .read{
+        padding-top: 2px;
+        padding-left: 40px;
+    }
+    h1.quotes{
+        color: red;
+        font-size: 30px;
+        padding-left: 2pxpx;
+    }
+    
+    
+   
+}
+
+
+
+/* End of media for fixing career section for mobile screen */
+
+
+/* start of media for science section for mobile devices */
+
+@media   (max-width:700px){
+
+    .science{
+        margin: 3px 3px;
+        background-color: rgb(236, 224, 209);
+        display: block;
+        gap: .5rem;
+        justify-content: space-evenly;
+        transition: all 2s ease-in-out;
+    }
+
+
+
+    
+
+    .science:hover{
+        transform: rotate(2.4deg);
+        transform: scaleX(1.02);
+    }
+
+    .scienceImage{
+        width: 100%;
+
+    }
+    .scienceImage img{
+        width: 100%;
+      
+        height: 100%;
+       
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .scienceTalk{
+        width: 100%;
+        
+
+    }
+    .scienceTalk h2{
+        font-size: 18px;
+        color: rgb(70, 65, 65);
+        padding: 5px px;
+        color: #3586ff;
+        font-style: italic;
+    }
+    .scienceTalk h1{
+    
+        color: rgb(70, 65, 65);
+        padding-top: 10px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 21px;
+    
+    }
+
+    .read{
+        padding-top: 2px;
+        padding-left: 4px;
+        font-size: 14px;
+        padding-bottom: 2px;
+    }
+    #readMore{
+        
+        display: none;
+        
+       
+    }
+    h1.atScienceFair {
+        font-size: 20px;
+        color: red;
+        padding: 5px 10px;
+    }
+
+
+
+    /* End of media for science section for mobile devices */
+}
+
+/* start of media for games slider for mobile size screen */
+@media (max-width:900px){
+    .cont{
+        display: block;
+        gap: 1rem;
+        margin: 30px 4px;
+    }
+    .coutTalk{
+        padding-left: 2px;
+        text-align: start;
+        
+       
+    }
+    .coutTalk h3{
+        padding-top: 10px;
+        font-size: 20px;
+        padding-bottom: 5px;
+        color: #3586ff;
+        padding-left: 0;
+    
+    
+    }
+    #slider{
+        overflow: hidden;
+    
+    }
+    #slider figure{
+        position: relative;
+        width: 500%;
+        margin: 0;
+        left: 0;
+        animation: 10s slider infinite;
+    }
+    
+    #slider figure img{
+        float: left;
+        width: 20%;
+        height: 50vh;
+    }
+
+/* END of media for games slider for mobile size screen */
+
+
+
+}
+

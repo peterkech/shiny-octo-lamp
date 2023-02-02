@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.homework{
+    display: block;
+    gap: 2rem;
+  
+ 
+}
+.title{
+    background-color: aqua;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.pdfs{
+    display: flex;
+    
+    flex-wrap: wrap;
+    padding: 12px 15px;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+.card{
+    padding: 10px 10px;
+}
+@media (max-width:332px){
+
+    .homework{
+        display: block;
+        gap: 2rem;
+       
+      
+     
+    }
+    .title{
+        background-color: aqua;
+        text-align: center;
+        margin-bottom: 20px;
+    
+    }
+    
+    .pdfs{
+        display: block;
+
+        
+        flex-wrap: wrap;
+        padding: 12px 1px;
+        margin-top: 30px;
+        justify-content: space-around;
+    }
+    .card{
+        padding: 10px 30px;
+        width: 90%;
+    }
+    .card img{
+        width: 70%;
+    }
+
+}

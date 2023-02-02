@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.year{
+    padding: 30px;
+
+  
+    
+}
+.year ul {
+    list-style: decimal-leading-zero;
+    background-color: wheat;
+    max-width: 400px;
+}
+.year ul li a{
+    font-size: 20px;
+    
+}
+.year ul li a:hover{
+  
+    color: red;
+    font-size: 25px;
+}
